@@ -1,0 +1,39 @@
+# Build artifacts
+build/
+.gradle/
+/local.properties
+
+# IDE settings
+.idea/
+*.iml
+.DS_Store
+
+# Android Specific
+captures/
+.externalNativeBuild/
+.cxx/
+
+
+# Kotlin
+/build
+*.gradle.kts
+!settings.gradle.kts
+!build.gradle.kts
+
+# Gradle
+.gradle
+/build
+/gradle
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradle/wrapper/gradle-wrapper.properties
+
+# Log files
+*.log
+
+# Android Studio
+*.jks
+*.keystore
+*.apk
+*.ap_
+*.dex
+*.class

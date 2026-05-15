@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NammaPlatform - Smart Railway Guidance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --namma-blue: #003366;
+            --namma-yellow: #FFD700;
+            --text-dark: #1A1A1A;
+            --bg-light: #F8F9FA;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--namma-blue) 0%, #001f3f 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            color: var(--namma-yellow);
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--namma-yellow);
+            color: var(--namma-blue);
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        .features {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card h3 {
+            color: var(--namma-blue);
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .footer {
+            background-color: var(--namma-blue);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .language-badge {
+            background: rgba(255,255,255,0.1);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="language-badge">ಕನ್ನಡ & English Supported</div>
+        <h1>NammaPlatform</h1>
+        <p>Your smart companion for stress-free railway travel in Karnataka. Get real-time coach layouts, platform info, and bilingual announcements.</p>
+        <a href="https://github.com/basammahalli/NammaPlatform" class="btn">View on GitHub</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Coach Layouts</h3>
+            <p>Never search for your coach again. See the exact sequence of your train visually.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Bilingual TTS</h3>
+            <p>Automated platform announcements in both Kannada and English for better accessibility.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Offline First</h3>
+            <p>Access critical station and train information even when your internet connection is weak.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Basamma Halli. Built with Kotlin & Jetpack Compose.</p>
+    </footer>
+
+</body>
+</html>

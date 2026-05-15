@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ನಮ್ಮ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್</string>
+    <string name="app_name_en">Namma Platform</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+    <string name="search_station">ನಿಲ್ದಾಣ ಹುಡುಕಿ / Search Station</string>
+    <string name="select_station">ನಿಲ್ದಾಣ ಆಯ್ಕೆಮಾಡಿ · SELECT STATION</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="back">Back</string>
+    <string name="speak">ಹೇಳು / Speak</string>
+    <string name="platform_number">ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಸಂಖ್ಯೆ / Platform Number</string>
+    <string name="departure_time">ಹೊರಡುವ ಸಮಯ / Departure Time</string>
+    <string name="coach_layout">ಬಂಡಿ ಸರಣಿ · COACH LAYOUT</string>
+    <string name="add_train">Add Train Details</string>
+    <string name="add_platform">Add Platform Details</string>
+    <string name="save">Save</string>
+</resources>
