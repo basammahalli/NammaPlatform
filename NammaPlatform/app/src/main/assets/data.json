@@ -1,0 +1,201 @@
+{
+  "stations": [
+    {
+      "id": "TK",
+      "nameKannada": "ತುಮಕೂರು",
+      "nameEnglish": "Tumkur",
+      "zone": "SWR \u00b7 Karnataka"
+    },
+    {
+      "id": "HAS",
+      "nameKannada": "ಹಾಸನ",
+      "nameEnglish": "Hassan",
+      "zone": "SWR \u00b7 Karnataka"
+    },
+    {
+      "id": "MYS",
+      "nameKannada": "ಮೈಸೂರು",
+      "nameEnglish": "Mysuru",
+      "zone": "SWR \u00b7 Karnataka"
+    },
+    {
+      "id": "MNDYA",
+      "nameKannada": "ಮಂಡ್ಯ",
+      "nameEnglish": "Mandya",
+      "zone": "SWR \u00b7 Karnataka"
+    },
+    {
+      "id": "ASK",
+      "nameKannada": "ಅರಸೀಕೆರೆ",
+      "nameEnglish": "Arsikere",
+      "zone": "SWR \u00b7 Karnataka"
+    }
+  ],
+  "trains": [
+    {
+      "id": "16521",
+      "stationId": "TK",
+      "nameKannada": "ಕಾವೇರಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Kaveri Express",
+      "departureTime": "11:23",
+      "platform": "1",
+      "coaches": [
+        {"type": "Engine"}, {"type": "General"}, {"type": "General"}, {"type": "Ladies"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "AC"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "56902",
+      "stationId": "TK",
+      "nameKannada": "ಹಂಪಿ ಪ್ಯಾಸೆಂಜರ್",
+      "nameEnglish": "Hampi Passenger",
+      "departureTime": "11:50",
+      "platform": "2",
+      "coaches": [
+        {"type": "Engine"}, {"type": "General"}, {"type": "General"}, {"type": "General"}, {"type": "Ladies"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "17306",
+      "stationId": "TK",
+      "nameKannada": "ಬಸವ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Basava Express",
+      "departureTime": "12:25",
+      "platform": "1",
+      "coaches": [
+        {"type": "Engine"}, {"type": "AC"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "Ladies"}, {"type": "General"}, {"type": "General"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "16515",
+      "stationId": "HAS",
+      "nameKannada": "ಕಾರವಾರ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Karwar Express",
+      "departureTime": "08:15",
+      "platform": "1",
+      "coaches": [
+        {"type": "Engine"}, {"type": "General"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "Ladies"}, {"type": "General"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "16206",
+      "stationId": "HAS",
+      "nameKannada": "ತಾಳಗುಪ್ಪ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Talguppa Express",
+      "departureTime": "14:30",
+      "platform": "2",
+      "coaches": [
+        {"type": "Engine"}, {"type": "General"}, {"type": "General"}, {"type": "Ladies"}, {"type": "Sleeper"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "16511",
+      "stationId": "HAS",
+      "nameKannada": "ಕಣ್ಣೂರು ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Kannur Express",
+      "departureTime": "22:45",
+      "platform": "1",
+      "coaches": [
+        {"type": "Engine"}, {"type": "AC"}, {"type": "AC"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "Ladies"}, {"type": "General"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "16232",
+      "stationId": "MYS",
+      "nameKannada": "ಮೈಲಾಡುತುರೈ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Mailaduturai Express",
+      "departureTime": "16:15",
+      "platform": "3",
+      "coaches": [
+        {"type": "Engine"}, {"type": "General"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "AC"}, {"type": "Ladies"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "12614",
+      "stationId": "MYS",
+      "nameKannada": "ಒಡೆಯರ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Wodeyar Express",
+      "departureTime": "15:15",
+      "platform": "1",
+      "coaches": [
+        {"type": "Engine"}, {"type": "AC"}, {"type": "AC"}, {"type": "General"}, {"type": "General"}, {"type": "General"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "20624",
+      "stationId": "MYS",
+      "nameKannada": "ಮಾಲ್ಗುಡಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Malgudi Express",
+      "departureTime": "08:20",
+      "platform": "2",
+      "coaches": [
+        {"type": "Engine"}, {"type": "General"}, {"type": "General"}, {"type": "Ladies"}, {"type": "General"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "16231",
+      "stationId": "MNDYA",
+      "nameKannada": "ಮೈಸೂರು ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Mysuru Express",
+      "departureTime": "09:45",
+      "platform": "1",
+      "coaches": [
+        {"type": "Engine"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "Ladies"}, {"type": "General"}, {"type": "General"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "16024",
+      "stationId": "MNDYA",
+      "nameKannada": "ಕಾವೇರಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Kaveri Express",
+      "departureTime": "21:30",
+      "platform": "2",
+      "coaches": [
+        {"type": "Engine"}, {"type": "AC"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "Ladies"}, {"type": "General"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "16526",
+      "stationId": "MNDYA",
+      "nameKannada": "ಕನ್ಯಾಕುಮಾರಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Kanyakumari Express",
+      "departureTime": "22:15",
+      "platform": "1",
+      "coaches": [
+        {"type": "Engine"}, {"type": "General"}, {"type": "General"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "AC"}, {"type": "Ladies"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "12725",
+      "stationId": "ASK",
+      "nameKannada": "ಸಿದ್ಧಗಂಗಾ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Siddhaganga Express",
+      "departureTime": "12:45",
+      "platform": "1",
+      "coaches": [
+        {"type": "Engine"}, {"type": "AC"}, {"type": "Sleeper"}, {"type": "Ladies"}, {"type": "General"}, {"type": "General"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "17326",
+      "stationId": "ASK",
+      "nameKannada": "ಹುಬ್ಬಳ್ಳಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "nameEnglish": "Hubballi Express",
+      "departureTime": "18:00",
+      "platform": "2",
+      "coaches": [
+        {"type": "Engine"}, {"type": "General"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "Sleeper"}, {"type": "Ladies"}, {"type": "Guard"}
+      ]
+    },
+    {
+      "id": "12089",
+      "stationId": "ASK",
+      "nameKannada": "ಜನ ಶತಾಬ್ದಿ",
+      "nameEnglish": "Jan Shatabdi",
+      "departureTime": "07:30",
+      "platform": "1",
+      "coaches": [
+        {"type": "Engine"}, {"type": "AC"}, {"type": "AC"}, {"type": "General"}, {"type": "General"}, {"type": "General"}, {"type": "General"}, {"type": "Guard"}
+      ]
+    }
+  ]
+}
